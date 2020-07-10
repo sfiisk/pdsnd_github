@@ -12,7 +12,7 @@ CSV data files (not included in repo) - chicago.csv, new_york_city.csv, washingt
 ### Credits
 To complete the project, I used the following sources:
 
-http://www.stackoverflow.com
-http://docs.python.org
-http://pandas.pydata.org
+http://www.stackoverflow.com<br>
+http://docs.python.org<br>
+http://pandas.pydata.org<br>
 
