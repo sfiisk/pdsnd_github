@@ -28,18 +28,18 @@ def get_filters():
             city = CITY_DATA[city_name.lower()]
         else:
             #We were not able to get the name of the city to analyze data so we continue the loop.
-            print("Sorry, that city was not recognized. Please input either chicago, new york city or washington.\n")
+            print("Sorry we were not able to get the name of the city to analyze data, Please input either chicago, new york city or washington.\n")
 
     # TO DO: get user input for month (all, january, february, ... , june)
     month_name = ''
     while month_name.lower() not in MONTH_DATA:
-        month_name = input("\nWhich month would you like to analyze? (E.g. Input either 'all' to apply no month filter or january, february, ... , june)\n")
+        month_name = input("\nWhat is the name of the month to filter data? (E.g. Input either 'all' to apply no month filter or january, february, ... , june)\n")
         if month_name.lower() in MONTH_DATA:
             #We were able to get the name of the month to analyze data.
             month = month_name.lower()
         else:
             #We were not able to get the name of the month to analyze data so we continue the loop.
-            print("Sorry, that month was not recognized. Please input either 'all' to apply no month filter or january, february, ... , june.\n")
+            print("Sorry we were not able to get the name of the month to filter data, Please input either 'all' to apply no month filter or january, february, ... , june.\n")
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     day_name = ''
