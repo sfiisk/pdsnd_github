@@ -28,7 +28,7 @@ def get_filters():
             city = CITY_DATA[city_name.lower()]
         else:
             #We were not able to get the name of the city to analyze data so we continue the loop.
-            print("Sorry we were not able to get the name of the city to analyze data, Please input either chicago, new york city or washington.\n")
+            print("Sorry, that city was not recognized. Please input either chicago, new york city or washington.\n")
 
     # TO DO: get user input for month (all, january, february, ... , june)
     month_name = ''
